@@ -4,13 +4,13 @@
 	"type": "module",
 	"author": "Serhii Chernenko",
 	"repository": {
-    "type": "git",
-    "url": "git+https://github.com/serhii-chernenko/falling-hall-643e"
-  },
+		"type": "git",
+		"url": "git+https://github.com/serhii-chernenko/falling-hall-643e"
+	},
 	"engines": {
-    "node": ">=18",
-    "npm": ">=9"
-  },
+		"node": ">=18",
+		"npm": ">=9"
+	},
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
@@ -21,14 +21,14 @@
 		"cf-typegen": "wrangler types -c dist/_worker.js/wrangler.json",
 		"db:generate": "drizzle-kit generate",
 		"lint": "eslint .",
-    "format": "eslint --fix .",
+		"format": "eslint --fix .",
 		"prepare": "husky"
 	},
 	"lint-staged": {
-    "*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}": [
-      "eslint --fix ."
-    ]
-  },
+		"*.{js,jsx,cjs,mjs,ts,tsx,cts,mts,vue}": [
+			"eslint --fix ."
+		]
+	},
 	"dependencies": {
 		"@nuxt/eslint": "^1.2.0",
 		"@stylistic/eslint-plugin": "^4.2.0",
@@ -48,6 +48,7 @@
 		"@commitlint/config-conventional": "^19.8.0",
 		"@commitlint/format": "^19.8.0",
 		"@commitlint/types": "^19.8.0",
+		"@libsql/client": "^0.15.0",
 		"@types/node": "^22.13.11",
 		"conventional-changelog-atom": "^5.0.0",
 		"eslint": "^9.23.0",
