@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         name: 'falling-hall-643e',
         d1_databases: [
           {
-            binding: 'DB',
+            binding: 'DB_ITEMS',
             database_id: process.env.DB_ITEMS_ID ?? '__SET_IN_ENV__DB_ITEMS_ID__',
             database_name: process.env.DB_ITEMS_NAME ?? 'falling-hall-643e',
             migrations_dir: resolve('.drizzle/migrations/items'),
